@@ -1,11 +1,11 @@
 //your JS code here. If required.
 
-let innerInput = document.getElementById('text');
+let textInput = document.getElementById('text');
 let delayInput = document.getElementById('delay');
 let btn = document.getElementById('btn');
 let outputDiv = document.getElementById('output')
 
-btn.document.addEventListener('click', async () =>{
+btn.addEventListener('click', async () =>{
 	let text = textInput.value;
 	let delay = delayInput.value;
 
