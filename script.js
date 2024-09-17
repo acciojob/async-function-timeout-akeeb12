@@ -3,6 +3,7 @@
 let innerInput = document.getElementById('text');
 let delayInput = document.getElementById('delay');
 let btn = document.getElementById('btn');
+let outputDiv = document.getElementById('output')
 
 btn.document.addEventListener('click', async () =>{
 	let text = textInput.value;
@@ -11,4 +12,4 @@ btn.document.addEventListener('click', async () =>{
 	await new Promise (resolve => setTimeout(resolve, delay));
 
 	outputDiv.textContent = text;
-})
+});
